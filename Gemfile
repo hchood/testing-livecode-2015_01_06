@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.2.3"
 
-gem "airbrake"
+gem "active_model_serializers", "0.8.3"
 gem "autoprefixer-rails"
 gem "bourbon", "~> 4.2.0"
 gem "coffee-rails", "~> 4.1.0"
@@ -48,6 +48,7 @@ group :test do
   gem "database_cleaner"
   gem "formulaic"
   gem "launchy"
+  gem "json_spec"
   gem "shoulda-matchers"
   gem "simplecov", require: false
   gem "timecop"
